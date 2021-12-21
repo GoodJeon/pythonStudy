@@ -97,9 +97,14 @@ print("평균 : {0}".format(str(avg)))
 # 형식 : print('서식' % 값)
 # 형식 : print('문자열 %d 문자열' % 변수)
 # 서식  : %d %f %s %c %o %x %%
-rate = 80
-print('출석율은 %.2f%%' % rate)
 name = '전동준'
 age = 27
 print('나이 : %d살' % age)
 print('이름 : %s' % name)
+
+# n.mf : 전체 n자리, 소수점이하 자리수 m
+rate = 80.2
+print('출석율은 %.2f%%' % rate)
+print('%10.3f' % rate)
+print('%3.4f' % rate) # 이 경우 전체 n자리 3지정한 것이 짧아서 무시됨
+
