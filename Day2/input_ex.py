@@ -22,7 +22,7 @@ print('총점: %d\n평균: %.2f' % (tot, avg))
 # 당신의 BMI는 OO이며, OOO입니다.
 weight = input('몸무게(kg): ')
 height = input('키(m): ' )
-BMI = int(weight) / (float(height) ** 2)
+BMI = float(weight) / (float(height) ** 2)
 if BMI < 18.5:
     a = '저체중'
 elif 18.5 < BMI <= 22.9:
