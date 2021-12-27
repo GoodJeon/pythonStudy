@@ -5,7 +5,7 @@ cTemp = (fTemp - 32) * 5 / 9
 
 print(cTemp)
 
-# 포매팅
+# 포매팅d
 print('%f' % cTemp) # default : 소수점 이하 6자리
 print('%.2f' % cTemp) # 소수점 이하 2자리
 print('%5.2f' % cTemp)

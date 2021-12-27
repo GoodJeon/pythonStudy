@@ -1,9 +1,15 @@
 # 문제 1
-sixteenToTen = int(input('16진수 한글자 입력 : '), 16) #input을 이용해 16진수를 받으
-if sixteenToTen <= 16:
-    print('10진수 ==> %d' % sixteenToTen)
+# sixteenToTen = int(input('16진수 한글자 입력 : '), 16) #input을 이용해 16진수를 받으
+# if sixteenToTen < 16:
+#     print('10진수 ==> %d' % sixteenToTen)
+# else:
+#     print('16진수가 아닙니다')
+num  = input('16진수 한 글자 입력 : ')
+if ('0' <= num and num <= '9') or ('a' <= num  and num <= 'f') or ('A' <= num and num <= 'F'):
+    print('10진수 ==> ', int(num, 16))
 else:
-    print('16진수가 아닙니다')
+    print('16진수가 아닙니다.')
+
 
 
 # 문제 2
