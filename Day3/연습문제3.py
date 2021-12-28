@@ -46,15 +46,27 @@ else:
 
 
 # 문제 3
-currency = 10000
-song = 0
+# currency = 10000
+# song = 0
+#
+# while True:
+#     if currency != 0:
+#         song += 1
+#         currency -= 2000
+#         print(f'노래를 {song}곡 불렀습니다.')
+#     else:
+#         print('잔액이 없습니다. 종료합니다.')
+#         break
+#     print(f'현재 {currency}원 남았습니다.')
 
+c = int(input('가진 돈은?'))
+song = 0
 while True:
-    if currency != 0:
+    if c >= 2000:
         song += 1
-        currency -= 2000
+        c -= 2000
         print(f'노래를 {song}곡 불렀습니다.')
     else:
-        print('잔액이 없습니다. 종료합니다.')
+        print('잔액이 부족합니다. 종료합니다.')
         break
-    print(f'현재 {currency}원 남았습니다.')
+    print(f'현재 {c}원 남았습니다.')
