@@ -33,3 +33,14 @@ print(type(result))
 # 반환된 여러개의 값을 여러 변수로 각각 받기ㅇ
 a, b, c = multi_return()
 print(a,b,c)
+
+# return 문이 여러개 사용할 경우 : 가장 첫뻔째 return 문장만 실행
+# return : 값을 반환하고 함수 종료
+
+def multi_return():
+    return 1
+    return 2
+    return 3
+
+result = multi_return()
+print(result)

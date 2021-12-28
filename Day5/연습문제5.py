@@ -9,7 +9,7 @@ students = [
    {"name" : "박지성", "korean" : 95, "math" : 98, "english" : 98, "science" : 98},
    {"name" : "류현진", "korean" : 64, "math" : 88, "english" : 92, "science" : 92}
 ]
-
+print(students)
 print('이름', '총점', '평균')
 for data in students:
    name = data.get('name')
