@@ -20,6 +20,6 @@ quantity = int(input('주문수량 입력: '))
 amount, discount, result = order(price, quantity)
 
 print(f'주문액: {amount}원')
-print(f'할인액: {discount}원')
-print(f'지불할 금액: {result}원')
+print(f'할인액: {int(discount)}원')
+print(f'지불할 금액: {int(result)}원')
 
