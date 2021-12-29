@@ -8,9 +8,9 @@
 # print(div(10,3)) 오류 발생
 
 # 모듈 참조 형식 3
-# from calculator import *
-# print(add(10,3))
-# print(div(10,3))
+from calculator import *
+print(add(10,3))
+print(div(10,3))
 
 # 모듈 참조 형식 4
 from Day7.modules import calculator as cal

@@ -16,14 +16,26 @@ print(add3())
 
 
 
+# (lambda 매개변수들: 식)(인수들)
+# 람다 표현식을 변수에 할당하지 않고 그 자체를 호출해서 사용
+(lambda x:x+10)(25)
+
+# 람다 표현식안에서 변수 생성 불가
+# (lambda x : y=10; x+y)(5)
+
+y = 10
+(lambda x : x+y)(5)
+
+
+
 # 문제. 리스트의 각 요소에 10을 더하는 함수
-# def add10(num):
-#     for i in range(len(num)):
-#         num[i] += 10
+def add10(num):
+    for i in range(len(num)):
+        num[i] += 10
 
 num = [1,3,4,10]
-# add10(num)
-# print(num)
+add10(num)
+print(num)
 
 
 # 10을 더하는 함수
@@ -49,15 +61,6 @@ print(num3)
 
 
 
-# (lambda 매개변수들: 식)(인수들)
-# 람다 표현식을 변수에 할당하지 않고 그 자체를 호출해서 사용
-(lambda x:x+10)(25)
-
-# 람다 표현식안에서 변수 생성 불가
-# (lambda x : y=10; x+y)(5)
-
-y = 10
-(lambda x : x+y)(5)
 
 
 # 문제2. 두 리스트의 각 자리수의 값을 합해서 새로운 리스트를 생성
@@ -65,7 +68,7 @@ y = 10
 list1 = [1,2,3,4]
 list2 = [10,20,30,40]
 
-def addList(x,y):
+def addList(x,y)
     list = []
     for i in range(len(x)):
         list.append(x[i] + y[i])

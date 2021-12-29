@@ -49,7 +49,7 @@ def selfCall():
 # 반복문 이용
 def count(number):
     for i in range(number, 0, -1):
-        print(i, end = ' ')
+        print(i)
 
 count(5)
 
@@ -57,7 +57,7 @@ count(5)
 # 재귀함수 이용
 def selfCount(number):
     if number >= 1:
-        print(number, end = ' ')
+        print(number)
         return selfCount(number - 1)
     else:
         return

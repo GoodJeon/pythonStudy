@@ -113,6 +113,7 @@ print(pow(2,10))
 # range([start], stop[,step]) : 지정한 범위의 값을 반복 가능한 객체로 반환
 print(range(0,5))
 print(list(range(0,5)))
+print(tuple(range(0,5)))
 
 # map() 함수 : 리스트나, 튜플, 문자열 등 반복가능한 구조의 요소별로 지정된 함수를 적용하여 처리
 # 원본은 변경하지 않고 처리 list, tuple형태로 반환
@@ -128,7 +129,7 @@ number1 = [3.5, 3.4, 2.0, 4.6]
 # map을 이용하는 경우
 num_list1 = list(map(lambda num : int(num), number1))
 print(num_list1)
-
+print(number1)
 # for를 이용하는 경우
 num_list2 = []
 for i in range(len(number1)):
