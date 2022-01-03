@@ -1,0 +1,6 @@
+01234
+abcde
+가나다라마
+
+
+Python Programming
