@@ -51,7 +51,7 @@ print(ex3)
 # 에서 다른 디렉터리의 사용하려
 # 고 한다. 부모 디렉터리(game)를
 # 기준으로 호출하는 방법은?
-# 답 : from graphic import render
+# 답 : from game.graphic.render import render_test
 
 
 # 8. 다음과 같이 ‘hello_python.txt’ 파일을 수정하고자 한다. 빈
@@ -70,7 +70,7 @@ print(ex3)
 
 # 10. ‘calculator_input.py’는 사칙연산 프로그램이다.
 # 다음 빈칸을 채워 프로그램을 완성하시오.
-# 답 : from calculator import sum_func, mutiply_func, minus_func, devide_func
+# 답 : from calculator import *
 
 
 
@@ -95,7 +95,8 @@ print(ex3)
 # 답: 4번
 
 # 14. 다음 중 예외(exception)의 이름과 내용이 잘못 짝지어진 것은?
-# 답: 다 맞는거 같은데...
+# 답: 다 맞는거 같은데... 4번이라네요..
+
 
 
 # 15. 파일의 종류에 대한 설명으로 틀린 것은?
@@ -109,7 +110,7 @@ print(ex3)
 
 # 17. try ~ except 문에서 사용되는 예외의 종류에 대한
 # 설명이다. 예외를 적어보자.
-# 답 : (1) NameError, (2) 모르겠음. , (3) 모르겠음., (4) : KeyError
+# 답 : (1) NameError, (2) IOError , (3) RuntimeError, (4) : KeyError
 
 
 # 18.다음 코드의 실행 결과를 쓰시오
